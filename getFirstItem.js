@@ -1,7 +1,7 @@
 const prompt = require("prompt-sync")();
 
 let userArray = JSON.parse(prompt("enter your array:"));
-userArray.includes();
+userArray
 /*let firstItem = userArray[0];
 let thirdItem = userArray[2];
 let arrayLength = userArray.length[10];
@@ -19,8 +19,8 @@ var bfalse = Boolean('false')*/
 //}else {
 //console.log("the last index in the array is"+lastItem);
 //}
-//if (longList!==arrayLength){console.log(bfalse);
-for (let index = 0; index < userArray.length; index++) {
-    console.log(userArray[index]);
+
+//secondCharOfThirdString.js: prompts the user for an array then logs the second character in the third item in the array. 
+//If the third item is not a string, log an error instead
+
     
-}
